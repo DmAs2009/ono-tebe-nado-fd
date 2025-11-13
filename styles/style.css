@@ -56,10 +56,6 @@
     justify-content: center;
 }
 
-.main{
-
-}
-
 .cover{
     color:#FFFFFF;
     background-image: url("../images/cover.jpg");
@@ -102,6 +98,7 @@
 
 .description__text{
     height: 51;
+    font-family: Raleway;
 }
 
 .button{
@@ -120,7 +117,15 @@
 }
 
 .lots{
-    padding: 180px 24px 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.lots__header{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left:40px;
 }
 
 .lots__card-list{
@@ -131,13 +136,13 @@
 }
 
 .lot__card{
-    width: 334;
-    height: 596;
     padding: 48px 40px;
     margin-top: 74px;
     margin-bottom: 53px;
     flex-grow: 1;
     position: relative;
+    min-height: 596;
+    min-width: 334;
 }
 
 .card__content{
@@ -150,11 +155,12 @@
     color: #FFFFFF;
     font-size: 22px;
     font-weight: bold;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 .card__text{
     text-wrap: balance;
+    font-size: 20px;
 }
 
 .card__film{
@@ -250,7 +256,8 @@
     color: #000000;
     font-size: 18px;
     font-style: normal;
-    justify-content: center;    
+    justify-content: center;
+    margin-bottom: 82px;
 }
 
 .footer__menu-list{
@@ -259,6 +266,7 @@
     justify-items: start;
     list-style: none;
     white-space: nowrap;
+    margin-bottom: 115px;
 }
 
 .footer__menu-item{
@@ -274,6 +282,7 @@
 .footer__social-list-item{
     display: flex;
     gap: 48px;
+    margin-bottom: 131px;
 }
 
 .footer__social-icon{
