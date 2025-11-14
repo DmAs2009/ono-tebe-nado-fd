@@ -11,13 +11,17 @@ main{
 
 }
 
+.header__menu{
+    display: flex;
+    justify-self: self-start;
+}
+
 .header__menu-list{
     display: flex;
-    gap: 31px;
+    gap: 32px;
     justify-content: space-between;
     justify-items: start;
     list-style: none;
-    justify-self: start;
 }
 
 .header__menu-item{
@@ -55,9 +59,11 @@ main{
     align-items: flex-start;
     color: #000000;
     font-size: 18px;
-    font-style: normal;
+    font-weight: 400;
     justify-content: center;
-    justify-self: end;
+    justify-self: flex-end;
+    padding-right: 35px;
+    line-height: 24.3px;
 }
 
 .cover{
