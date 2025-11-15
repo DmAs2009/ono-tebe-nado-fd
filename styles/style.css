@@ -128,7 +128,6 @@
 }
 
 .description__text {
-    height: 51;
     font-family: Raleway, sans-serif;
     z-index: 1;
     line-height: 127%;
@@ -210,27 +209,21 @@
     width: auto;
     min-height: 596px;
     padding: 50px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 }
 
 .card__type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .card__type-book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .card__type-painting {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 
