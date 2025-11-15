@@ -74,7 +74,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 165px 50px 50px 50px;
-    height: 757px;
+    min-height: 757px;
 }
 
 .overlay {
@@ -118,7 +118,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
@@ -129,7 +129,7 @@
 
 .description__text {
     height: 51;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     z-index: 1;
     line-height: 127%;
     word-spacing: 19px;
@@ -140,7 +140,7 @@
     height: 51px;
     border-style: solid;
     border-width: 1px;
-    border-color: #FFFFFF;
+    border-color: currentColor;
     align-self: flex-end;
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@
     justify-content: space-between;
     gap: 30px;
     width: auto;
-    height: 596px;
+    min-height: 596px;
     padding: 50px 40px;
 }
 
@@ -247,7 +247,7 @@
     display: grid;
     grid-template-columns: 334px repeat(1, 1fr);
     gap: 25px;
-    padding: 120px 24px 180px;
+    padding: 120px 24px 160px;
 
 }
 
@@ -299,8 +299,8 @@
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: -20px;
 }
+
 
 .footer__address {
     justify-content: center;
