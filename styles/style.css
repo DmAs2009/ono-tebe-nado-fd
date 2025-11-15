@@ -152,6 +152,7 @@
 .button_text {
     font-size: 22px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .lots {
