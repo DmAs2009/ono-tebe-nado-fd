@@ -73,7 +73,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 165px 50px 50px 50px;
+    padding: 165px 50px 45px 50px;
     min-height: 757px;
 }
 
@@ -249,7 +249,7 @@
 .about__content {
     display: flex;
     flex-direction: column;
-    padding-top: 133px;
+    padding-top: 140px;
 }
 
 .about__title {
