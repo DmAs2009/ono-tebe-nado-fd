@@ -147,6 +147,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
+    cursor: pointer;
 }
 
 .button_text {
